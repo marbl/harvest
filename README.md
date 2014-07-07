@@ -1,5 +1,5 @@
 
-#Harvest
+Harvest
 ======= 
 
 Harvest is a suite of core-genome alignment and
