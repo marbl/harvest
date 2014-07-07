@@ -31,5 +31,5 @@ Documentation: http://harvest.readthedocs.org/en/latest/
   * Description: core genome aligner
   * Project url: http://github.com/marbl/parsnp
   * Language: C, C++, Python
-  * OSX prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-OSX64.gz
-  * Linux prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-Linux64.gz
+  * OSX prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-OSX64.tar.gz
+  * Linux prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-Linux64.tar.gz
