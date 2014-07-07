@@ -11,31 +11,32 @@ recombination detection, and phylogenetic trees.
 
 Harvest components:
 
-1) Harvest tools
+1. Harvest tools
 
-*Description: binary format and conversion utilities
+..*Description: binary format and conversion utilities
 
-*Project url: github.com/harvest-tools
+..*Project url: http://github.com/marbl/harvest-tools
 
-*OSX prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvest-OSX64.gz
+..*OSX prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvest-OSX64.gz
 
-*Linux prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvest-Linux64.gz
+..*Linux prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvest-Linux64.gz
 
-2) Parsnp 
-*Description: core genome aligner
+2. Parsnp 
 
-*Project url: github.com/parsnp
+..*Description: core genome aligner
 
-*OSX prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/gingr-OSX64.gz
+..*Project url: http://github.com/marbl/parsnp
 
-*Linux prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-Linux64.gz
+..*OSX prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/gingr-OSX64.gz
 
-3) Gingr
+..*Linux prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-Linux64.gz
 
-*Description: GUI, interactive visualization of alignments, trees and variants
+3. Gingr
 
-*Project url: github.com/gingr
+..*Description: GUI, interactive visualization of alignments, trees and variants
 
-*OSX prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/gingr-OSX64.app.zip
+..*Project url: http://github.com/marbl/gingr
 
-*Linux prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/gingr-Linux64.gz
+..*OSX prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/gingr-OSX64.app.zip
+
+..*Linux prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/gingr-Linux64.gz
