@@ -20,16 +20,16 @@ Documentation: http://harvest.readthedocs.org/en/latest/
   * OSX prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvest-OSX64.gz
   * Linux prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvest-Linux64.gz
 
-2. **Parsnp**
-  * Description: core genome aligner
-  * Project url: http://github.com/marbl/parsnp
-  * Language: C, C++, Python
-  * OSX prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/gingr-OSX64.gz
-  * Linux prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-Linux64.gz
-
-3. **Gingr**
+2. **Gingr**
   * Description: GUI, interactive visualization of alignments, trees and variants
   * Project url: http://github.com/marbl/gingr
   * Language: C++
   * OSX prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/gingr-OSX64.app.zip
   * Linux prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/gingr-Linux64.gz
+
+3. **Parsnp**
+  * Description: core genome aligner
+  * Project url: http://github.com/marbl/parsnp
+  * Language: C, C++, Python
+  * OSX prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-OSX64.gz
+  * Linux prebuilt binary: ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-Linux64.gz
