@@ -2,10 +2,6 @@
 harvest-tools: binary archive and format conversion tool
 =================================================================
 
-=================
-Overview
-=================
-
 FIXME
 
 Contents:

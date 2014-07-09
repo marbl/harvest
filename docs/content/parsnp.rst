@@ -2,10 +2,6 @@
 Parsnp: rapid core genome alignment of 1000s of bacterial genomes
 =================================================================
 
-=================
-Overview
-=================
-
 FIXME
 
 Contents:
