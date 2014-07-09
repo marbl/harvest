@@ -24,8 +24,8 @@ Output Files
 Included external software/packages
 ------------------------
 * FastTree2 : http://meta.microbesonline.org/fasttree
-* Muscle 3.8 : www.drive5.com/muscle
-* PhiPack : www.maths.otago.ac.nz/~dbryant/software.html
+* Muscle : http://www.drive5.com/muscle
+* PhiPack : http://www.maths.otago.ac.nz/~dbryant/software.html
 
 
 
