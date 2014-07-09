@@ -1,5 +1,5 @@
 =================================================================
-Parsnp rapid core genome alignment
+Parsnp: rapid core genome alignment of 1000s of bacterial genomes
 =================================================================
 
 =================
@@ -23,9 +23,3 @@ Contents:
    content/parsnp/citation
    content/parsnp/license
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

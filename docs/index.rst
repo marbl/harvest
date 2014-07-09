@@ -5,7 +5,7 @@
 
 
 =================================================================
-Harvest software suite for rapid genome alignment and visualization
+Harvest software suite for rapid genome alignment and visualization 
 =================================================================
 .. image:: harvest1.png
     :width: 800px
@@ -15,12 +15,12 @@ Harvest software suite for rapid genome alignment and visualization
 Overview
 =================
 
-FIXME
-
-=================
-Citation
-=================
-Submitted for review
+Harvest is a suite of core-genome alignment and visualization tools
+for quickly analyzing thousands of intraspecific microbial
+genomes. Harvest includes Parsnp, a fast core-genome multi-aligner, harvest-tools, a binary archive format and format conversion tool,
+and Gingr, a dynamic visual platform. Combined they provide
+rapid core-genome alignments, variant calls, recombination
+detection, and phylogenetic trees.  
 
 
 Contents:
@@ -35,10 +35,4 @@ Contents:
    content/parsnp
    content/faq
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
