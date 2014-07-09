@@ -3,15 +3,37 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to harvest's documentation!
-===================================
+
+=================================================================
+Harvest software suite for rapid genome alignment and visualization
+=================================================================
+.. image:: harvest1.png
+    :width: 800px
+    :scale: 80 %
+
+=================
+Overview
+=================
+
+FIXME
+
+=================
+Citation
+=================
+Submitted for review
+
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-
+   content/hardware
+   content/installation
+   content/gingr
+   content/harvest-tools
+   content/parsnp
+   content/faq
 
 Indices and tables
 ==================
