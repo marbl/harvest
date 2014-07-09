@@ -1,6 +1,6 @@
-=================================================================
-Gingr: Interactive visualization of large-scale phylogenies and multi-alignments
-=================================================================
+====================================================
+Gingr: Interactive visualization of multi-alignments
+====================================================
 
 FIXME
 
