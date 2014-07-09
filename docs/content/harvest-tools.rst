@@ -9,11 +9,11 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   content/harvest/quickstart
-   content/harvest/components
-   content/harvest/installation
-   content/harvest/paramaters
-   content/harvest/faq
-   content/harvest/tutorial
-   content/harvest/source
-   content/harvest/license
+   harvest/quickstart
+   harvest/components
+   harvest/installation
+   harvest/paramaters
+   harvest/faq
+   harvest/tutorial
+   harvest/source
+   harvest/license

@@ -33,15 +33,6 @@ Contents:
    content/gingr
    content/harvest-tools
    content/parsnp
-   content/parsnp/quickstart
-   content/parsnp/components
-   content/parsnp/installation
-   content/parsnp/paramaters
-   content/parsnp/faq
-   content/parsnp/tutorial
-   content/parsnp/source
-   content/parsnp/citation
-   content/parsnp/license
    content/faq
 
 
