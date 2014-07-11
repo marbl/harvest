@@ -9,6 +9,8 @@ multi-aligner, and Gingr, a dynamic visual platform. Combined they
 provide interactive core-genome alignments, variant calls,
 recombination detection, and phylogenetic trees.
 
+Release status: `Beta` (official v1.0 release appearing soon!)
+
 Documentation: http://harvest.readthedocs.org/en/latest/
 
 ##Harvest components:
