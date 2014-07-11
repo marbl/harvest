@@ -12,6 +12,12 @@ Harvest software suite for rapid genome alignment and visualization
     :scale: 80 %
 
 =================
+Status
+=================
+Release status: `Beta` (official v1.0 release appearing next week)
+Documentation:  `Barebones` (currently in progress!) 
+
+=================
 Overview
 =================
 
