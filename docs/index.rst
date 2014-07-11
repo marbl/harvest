@@ -3,19 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-
 =================================================================
 Harvest software suite for rapid genome alignment and visualization 
 =================================================================
-.. image:: harvest1.png
-    :width: 800px
-    :scale: 80 %
 
-=================
-Status
-=================
-Release status: `Beta` (official v1.0 release appearing next week)
-Documentation:  `Barebones` (currently in progress!) 
+07/11/14: First official release is pending (ETA 07/16/14), and documentation is in prep.
 
 =================
 Overview
