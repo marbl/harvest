@@ -4,16 +4,22 @@ Harvest
 
 Harvest is a suite of core-genome alignment and
 visualization tools for quickly analyzing thousands of intraspecific
-microbial genomes. Harvest includes Parsnp, a fast core-genome
-multi-aligner, and Gingr, a dynamic visual platform. Combined they
-provide interactive core-genome alignments, variant calls,
+microbial genomes. Harvest includes: Parsnp, a fast core-genome
+multi-aligner, Gingr, a dynamic visual platform, and harvest-tools (binary archive format, conversion tools). Combined they provide interactive core-genome alignments, variant calls,
 recombination detection, and phylogenetic trees.
 
-Release status: `Beta` (official v1.0 release appearing next week)
+Release status: `Beta` (07/18/14: official v1.0 release appearing early next week)
 
-Documentation (in prep): http://harvest.readthedocs.org/en/latest/
+##Harvest suite download:
 
-##Harvest components:
+* OSX (10.7 or newer) : ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvestsuite-OSX64.tar.gz
+* Linux/*nix : ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvestsuite-Linux64.tar.gz
+
+##Harvest suite documentation (in prep):
+
+* http://harvest.readthedocs.org/en/latest/
+
+##Individual Harvest components:
 
 1. **Harvest tools**
   * Description: binary format and conversion utilities
