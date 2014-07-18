@@ -5,13 +5,24 @@ Download, install & run
 -----------------------
 Parsnp is distributed as a precompiled binary that should be devoid of external dependencies (all included in dist). The three steps below represent the fastest way to start using the software:
 
-1. wget ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-[OSX64/Linux64].tar.gz
-2. tar -xvf parsnp-[OSX64/Linux64].tar.gz
-3. cd parsnp-[OSX64/Linux64]
+OSX:
 
-Then, on the command-line, run::
+  1. wget ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-OSX64.gz
+  2. tar -xvf parsnp-OSX64.tar.gz
 
-./parsnp –p <threads> –d <directory of genomes> –r <ref genome>
+  Then, on the command-line, run::
+
+  ./parsnp-OSX64 –p <threads> –d <directory of genomes> –r <ref genome>
+
+Linux:
+
+  1. wget ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-Linux64.gz
+  2. tar -xvf parsnp-Linux64.tar.gz
+
+  Then, on the command-line, run::
+
+  ./parsnp-Linux64 –p <threads> –d <directory of genomes> –r <ref genome>
+
 
 Note: This should take anywhere from a few seconds to a few hours complete, from genomes/draft assemblies to newick-formatted tree. 
 
