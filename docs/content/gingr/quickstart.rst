@@ -28,6 +28,7 @@ Importing other files
 .. image:: new.png
 
 * Download the data files
+
   * Alignment: :download:`xmfa <parsnp.xmfa>`
   * Reference: :download:`fasta <parsnp.fna>` 
   * Annotations: :download:`genbank <england1.gbk>` 
