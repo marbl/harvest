@@ -30,7 +30,7 @@ Importing other files
 * Download the data files
 
   * Alignment: :download:`xmfa <parsnp.xmfa>`
-  * Reference: :download:`fasta <parsnp.fna>` 
+  * Reference: :download:`fasta <england1.fna>` 
   * Annotations: :download:`genbank <england1.gbk>` 
   * Phylogeny: :download:`newick <parsnp.tree>` 
 
