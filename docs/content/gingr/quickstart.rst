@@ -3,9 +3,7 @@ Quickstart
 
 Browsing a Gingr file
 --------------------
-* Download 
-
-.. image:: parsnp.ggr
+* Download :download:`Gingr input file <parsnp.ggr>`
 
 * Open in Gingr (File->Open)
 
