@@ -3,7 +3,7 @@ Quickstart
 
 Browsing a Gingr file
 --------------------
-* Download [parsnp.ggr]
+* Download 
 
 .. image:: parsnp.ggr
 
@@ -30,10 +30,10 @@ Importing other files
 .. image:: new.png
 
 * Download the data files
-  * Alignment: [parsnp.xmfa](parsnp.xmfa)
-  * Reference: [england1.fna](england1.fna)
-  * Annotations: [england1.gbk](england1.gbk)
-  * Tree: [parsnp.tree](parsnp.tree)
+  * Alignment: :download:`xmfa <parsnp.xmfa>`
+  * Reference: :download:`fasta <parsnp.fna>` 
+  * Annotations: :download:`genbank <england1.gbk>` 
+  * Phylogeny: :download:`newick <parsnp.tree>` 
 
 * Import the alignment with the refrence (File->Import Alignment (XMFA & Fasta))
 
