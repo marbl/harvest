@@ -7,7 +7,11 @@
 Harvest software suite for rapid genome alignment and visualization 
 =================================================================
 
-07/11/14: First official release is pending (ETA 07/16/14), and documentation is in prep.
+==============
+Release status
+==============
+
+07/20/14: `v1.0 pre-release`
 
 =================
 Overview
@@ -20,6 +24,7 @@ and Gingr, a dynamic visual platform. Combined they provide
 rapid core-genome alignments, variant calls, recombination
 detection, and phylogenetic trees.  
 
+.. image:: example.png
 
 Contents:
 
