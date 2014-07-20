@@ -7,8 +7,9 @@ visualization tools for quickly analyzing thousands of intraspecific
 microbial genomes. Harvest includes: Parsnp, a fast core-genome
 multi-aligner, Gingr, a dynamic visual platform, and harvest-tools, providing both a reference compressed binary archive and format conversion tools. 
 
-Release status: `v1.0 pre-release`
-   * 07/19/14: official v1.0 release appearing on 07/21/14
+##Release status
+
+07/20/14: `v1.0 pre-release`
 
 ##Harvest suite download:
 
