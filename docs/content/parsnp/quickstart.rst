@@ -19,24 +19,26 @@ On Linux:
 Basic usage:
 """"""""""""
 
-  ./parsnp –p <threads> –d <directory of genomes> –r <ref genome>
+  From command-line::
+  
+     parsnp –p <threads> –d <directory of genomes> –r <ref genome>
 
 Advanced usage:
 """""""""""""""
 
-Parsnp quick start for three example scenarios
-   
-   1) With reference & genbank file::
-   
-      parsnp -g <reference_genbank_file1,reference_genbank_file2,..> -d <genome_dir> -p <threads> 
+Parsnp quick start for three example scenarios.
 
-   2) With reference but without genbank file::
+With reference & genbank file::
    
-      parsnp -r <reference_genome> -d <genome_dir> -p <threads> 
+   parsnp -g <reference_genbank_file1,reference_genbank_file2,..> -d <genome_dir> -p <threads> 
 
-   3) Autorecruit reference to a draft assembly::
+With reference but without genbank file::
    
-      parsnp -q <draft_assembly> -d <genome_db> -p <threads> 
+   parsnp -r <reference_genome> -d <genome_dir> -p <threads> 
+
+Autorecruit reference to a draft assembly::
+   
+   parsnp -q <draft_assembly> -d <genome_db> -p <threads> 
 
 Command-line parameters:
 """""""""""""""""""""""""
@@ -45,15 +47,15 @@ Input/output::
 
    -c = <flag>: (c)urated genome directory, use all genomes in dir and ignore MUMi? (default = NO)
    -d = <path>: (d)irectory containing genomes/contigs/scaffolds
-   -r = <path>: (r)eference genome (set to ! to pick random one from genome dir)
    -g = <string>: Gen(b)ank file(s) (gbk), comma separated list (default = None)
    -o = <string>: output directory? default [./P_CURRDATE_CURRTIME]
    -q = <path>: (optional) specify (assembled) query genome to use, in addition to genomes found in genome dir (default = NONE)
-  
+   -r = <path>: (r)eference genome (set to ! to pick random one from genome dir)  
+   
 MUMi::
 
-   -U = <float>: max (M)UMi distance (default: autocutoff based on distribution of MUMi values)
    -M = <flag>: calculate MUMi and exit? overrides all other choices! (default: NO)
+   -U = <float>: max (M)UMi distance (default: autocutoff based on distribution of MUMi values)
   
 MUM search::
 
@@ -75,8 +77,8 @@ SNP filters::
 Misc::
 
    -h = <flag>: (h)elp: print this message
-   -p = <int>: number of threads to use? (default= 1)
    -P = <int>: max partition size? limits memory usage (default= 15000000)
+   -p = <int>: number of threads to use? (default= 1)
    -v = <flag>: (v)erbose output? (default = NO)
 
 Output Files
