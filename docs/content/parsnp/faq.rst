@@ -1,9 +1,17 @@
 FAQs
 ====
 
+Q. **What is Parsnp ?**
+
+ A. Parsnp takes both draft and finished genomes of closely related strains as input, performs conservative core genome alignment and as output returns multi-alignments (XMFA), variants (VCF), core genome phylogeny (Newick) and Gingr input format (GGR).  
+
 Q. **Why should I use Parsnp?**
 
- A. The main advantages of Parsnp over alternative approaches is robust filtration of variant (SNP) calls, multiple alignments as output and speed. Parsnp can align 200 bacterial strains in <30 minutes on a 16-core server.
+ A. The main advantages of Parsnp over alternative approaches is robust filtration of variant (SNP) calls, multiple alignments as output and superior speed. Parsnp can align 200-300 bacterial strains in <30 minutes on a 16-core server and ~1000 in a couple of hours.
+
+Q. **Why should I *not* use Parsnp?**
+
+ A. If you are interested in pan genome/whole genome alignment, existing tools for the job that perform well include Mauve, Mugsy, among others. In addition, Parsnp is tailored for intraspecific genome analysis (outbreak analysis of a pathogen, etc). One main limitation of Parsnp is that it cannot handle subsets (core genome only) and is not as sensitive as existing methods.
 
 Q. **How can I visualize the results?**
 
@@ -15,7 +23,7 @@ Q. **Only a small percentage (<40%) of the reference genome covered by the align
 
 Q. **I am not sure which reference genome to choose, help!**
 
- A. Since the core is the core is the core, the choice of reference does not matter (with a couple important exceptions, continue reading). Feel free to use the parameter ‘-r !’ to randomly select a reference if you are feeling indecisive or if all of the genomes contained in the genome directory are of similar quality. Typically, finished/closed genomes are used a the reference strain to ensure they are high-quality and do not contain assembly artifacts or contaminant.
+ A. Since the core necessarily includes all genomes, the choice of reference does not matter (with a couple important exceptions, continue reading). Feel free to use the parameter ‘-r !’ to randomly select a reference if you are feeling indecisive or if all of the genomes contained in the genome directory are of similar quality. Typically, finished/closed genomes are used a the reference strain to ensure they are high-quality and do not contain assembly artifacts or contaminant.
 
 Q. **How are the genomes selected from the input directory? Not all of the genomes I wanted included are in the tree!**
 
