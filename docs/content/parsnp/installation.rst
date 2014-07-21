@@ -39,7 +39,7 @@ Once both installed (to cwd install by default)::
 
     export PARSNPDIR=/path/to/parsnp/install
     
-Alternatively build instructions (requires sudo)
+Alternative build instructions (requires sudo)
 ---------------------------------------------------------------
 
 First (important!), build libMUSCLE::
