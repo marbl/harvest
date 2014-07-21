@@ -170,15 +170,15 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
      * Command-line output:
       
           .. image:: run2.png
-          
-      * Inspect Output::
-      
-         * XMFA output
-         * VCF output
-         * Newick output
 
       * Visualize with Gingr
+      
+          .. image:: run1.gingr.png
 
-      * Retrieve XMFA via harvest-tools 
+      * Enable recombination detection/filter (-x) ::
+      
+         ./parsnp -r ./strep31/NC_011900.fna -d ./strep31 -p <num threads> -c -x
 
-      * Selecting a list of SNPs common to a pair of genomes
+      * Re-visualize with Gingr
+      
+          .. image:: run2.gingr.png
