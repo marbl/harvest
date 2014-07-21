@@ -9,16 +9,16 @@ multi-aligner, Gingr, a dynamic visual platform, and harvest-tools, providing bo
 
 ##Release status
 
-07/20/14: `v1.0 pre-release`
+07/21/14: `v1.0`
 
 ##Harvest suite download:
 
 * OSX (10.7 or newer): 
-   * ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvest-OSX64.tar.gz
-   * MD5 sum: 091c4a67f41099afc0eed2f79282b153
+   * https://github.com/marbl/harvest/releases/download/v1.0/harvest-OSX64.tar.gz
+   * MD5 sum: 31c2af7272897fd1926758a4e9399e46
 * Linux/*nix:
-   * ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvest-Linux64.tar.gz
-   * MD5 sum: a503fe0e9484ab1cbcd19e18490ea2ae
+   * https://github.com/marbl/harvest/releases/download/v1.0/harvest-Linux64.tar.gz
+   * MD5 sum: 170b054d6c5656df64e5c9f2c8c4072c
 
 ##Harvest suite documentation (in prep):
 
@@ -31,11 +31,11 @@ multi-aligner, Gingr, a dynamic visual platform, and harvest-tools, providing bo
   * Project url: http://github.com/marbl/parsnp
   * Language: C, C++, Python
   * OSX prebuilt binary: 
-     * ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-OSX64.gz
-     * MD5 sum: 533f10a39a84c30a3b00d953545438d5
+     * https://github.com/marbl/parsnp/releases/download/v1.0/parsnp-OSX64.gz
+     * MD5 sum: 08c19b4d12e8199b2ce098550b4100e6
   * Linux prebuilt binary: 
-     * ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-Linux64.gz
-     * MD5 sum: 0a4ebfa627dd261408c07b67ce225dbb
+     * https://github.com/marbl/parsnp/releases/download/v1.0/parsnp-Linux64.gz
+     * MD5 sum: f82b6b9dae456fe9263ee6214b2633af
 
 2. **Gingr**
   * Description: GUI, interactive visualization of multiple alignments, phylogenies and variants (SNPs etc)
@@ -47,10 +47,10 @@ multi-aligner, Gingr, a dynamic visual platform, and harvest-tools, providing bo
   * Project url: http://github.com/marbl/gingr
   * Language: C++
   * OSX prebuilt binary: 
-     * ftp://ftp.cbcb.umd.edu/pub/software/harvest/gingr-OSX64.app.zip
+     * https://github.com/marbl/gingr/releases/download/v1.0/gingr-OSX64.app.zip
      * MD5 sum: 84c8d3818b48656132b5adf9a125783d
   * Linux prebuilt binary: 
-     * ftp://ftp.cbcb.umd.edu/pub/software/harvest/gingr-Linux64.gz
+     * https://github.com/marbl/gingr/releases/download/v1.0/gingr-Linux64.gz
      * MD5 sum: 3e4fdab0319be4c927b8738c2223f15b
 
 3. **Harvest tools**
@@ -58,9 +58,9 @@ multi-aligner, Gingr, a dynamic visual platform, and harvest-tools, providing bo
   * Project url: http://github.com/marbl/harvest-tools
   * Language: C++, Python
   * OSX prebuilt binary: 
-     * ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvesttools-OSX64.gz
+     * https://github.com/marbl/harvest-tools/releases/download/v1.0/harvesttools-OSX64.gz
      * MD5 sum: 4cc638e05c82bab24f2f68317347661e
   * Linux prebuilt binary: 
-     * ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvesttools-Linux64.gz
+     * https://github.com/marbl/harvest-tools/releases/download/v1.0/harvesttools-Linux64.gz
      * MD5 sum: 4f41d17dd49eb8be7861a0325bed9910
 

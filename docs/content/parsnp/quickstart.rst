@@ -1,6 +1,18 @@
 Quickstart
 ==========
 
+Before you run
+---------------
+
+   1. The precompiled binaries were created using Pyinstaller and packaged as a single file:
+   
+      * The most likely cause for failure is a lack of free space in the /tmp directory. By default, PyInstaller will search a standard list of directories and sets tempdir to the first one which the calling user can create files in. 
+      
+      * The list of directories for extracting the archive:
+         - The directory named by the TMPDIR environment variable.
+         - The directory named by the TEMP environment variable.
+         - The directory named by the TMP environment variable.
+
 Download, install & run
 -----------------------
 Parsnp is distributed as a precompiled binary that should be devoid of external dependencies (all included in dist). The three steps below represent the fastest way to start using the software:

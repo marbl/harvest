@@ -1,6 +1,14 @@
 Quickstart
 ==========
 
+Before you run
+---------------
+
+   1. To run Gingr OSX, you will need to right click to open and bypass the unsigned developer notice:
+   
+      * Future releases will be signed
+   
+   
 Browsing a Gingr file
 --------------------
 * Download :download:`Gingr input file <parsnp.ggr>`
