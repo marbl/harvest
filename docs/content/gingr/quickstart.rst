@@ -8,7 +8,29 @@ Before you run
    
       * Future releases will be signed
    
-   
+Download, install & run
+-----------------------
+Parsnp is distributed as a precompiled binary that should be devoid of external dependencies (all included in dist). The three steps below represent the fastest way to start using the software:
+
+On OSX:
+"""""""
+  1. wget https://github.com/marbl/gingr/releases/download/v1.0/gingr-OSX64.app.zip
+  2. unzip gingr-OSX64.app.zip
+
+On Linux:
+"""""""""
+
+  1. wget https://github.com/marbl/gingr/releases/download/v1.0/gingr-Linux64.gz
+  2. gzip -d gingr-Linux64.gz
+
+Basic usage:
+""""""""""""
+
+  1. On OSX simply click on Gingr app (right click to bypass unsigned developer notice)
+  2. On Linux, simply run::
+      ./gingr-Linux64
+  
+
 Browsing a Gingr file
 --------------------
 * Download :download:`Gingr input file <parsnp.ggr>`
