@@ -1,10 +1,10 @@
 Tutorial
 ========
 
-To further demonstrate the functionality of Parsnp we have prepared two small tutorial datasets. The first dataset is a MERS coronavirus outbreak dataset involving 42 isolates.
+To further demonstrate the functionality of Parsnp we have prepared two small tutorial datasets. The first dataset is a MERS coronavirus outbreak dataset involving 49 isolates.
 The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Both of these datasets should run on modestly equipped laptops in a few minutes.
 
-   1) 42 MERS Coronavirus genomes
+   1) 49 MERS Coronavirus genomes
    
       * Download genomes: 
       
