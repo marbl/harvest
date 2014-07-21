@@ -85,6 +85,7 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       
          * Bootstrap values have improved after running recombination filter; columns with filtered SNPs are displayed in image:
           .. image:: run2.gingr.png
+             :target: https://raw.githubusercontent.com/marbl/harvest/master/docs/content/parsnp/run2.gingr.png
 
       * Inspect Output:
       
