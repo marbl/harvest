@@ -18,7 +18,7 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       
       .. image:: run_mers.cmd1.png
 
-      * Visualize with Gingr :download: `GGR <run_mers.gingr1.ggr>`
+      * Visualize with Gingr :download:`GGR <run_mers.gingr1.ggr>`
       
       .. image:: run_mers.gingr1.png
 
@@ -29,13 +29,15 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
          
             ./parsnp -g ./ref/EMC_2012.gbk -d ./mers49 -D 1000
             
-      * Visualize again with Gingr :download: `GGR <run_mers.gingr2.ggr>`
+      * Visualize again with Gingr :download:`GGR <run_mers.gingr2.ggr>`
       
       .. image:: run_mers.gingr2.png
       
          - By adjusting the `-D` parameter, this region is no longer unaligned, boosting the reference coverage to 97%.
          - On closer inspection, a large stretch of N's in Jeddah isolate C7569 was the culprit
-         
+        
+      * Zoom in with Gingr for nucleotide view of region
+      
       .. image:: run_mers.gingr3.png
          
       * Inspect Output:
