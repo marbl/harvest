@@ -25,14 +25,14 @@ Parsnp is distributed as a precompiled binary that should be devoid of external 
 
 On OSX:
 """""""
-  1. wget ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-OSX64.gz
-  2. tar -xvf parsnp-OSX64.tar.gz
+  1. wget https://github.com/marbl/parsnp/releases/download/v1.0/parsnp-OSX64.gz
+  2. unzip -d parsnp-OSX64.gz
 
 On Linux:
 """""""""
 
-  1. wget ftp://ftp.cbcb.umd.edu/pub/software/harvest/parsnp-Linux64.gz
-  2. tar -xvf parsnp-Linux64.tar.gz
+  1. wget https://github.com/marbl/parsnp/releases/download/v1.0/parsnp-Linux64.gz
+  2. unzip -d parsnp-Linux64.gz
 
 Basic usage:
 """"""""""""
