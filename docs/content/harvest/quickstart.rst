@@ -3,11 +3,13 @@ Quickstart
 
 Before you run
 --------------
-   1. harvest-tools VCF outputs indels in non standard format
+   1. harvest-tools VCF outputs indels in non standard format:
+   
       * currently column based, not row based. excluding indel rows (default behavior) converts file into valid VCF format.
       * this will be updated in future version
        
-   2. Genbank annotation input
+   2. Genbank annotation input:
+   
       * Multiple Genbank files must be specified with multiple `-g` parameters
       * In addition, genome identifier (gi) must match the header of the reference fasta file
        
