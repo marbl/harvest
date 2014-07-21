@@ -21,6 +21,7 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       * Visualize with Gingr :download:`GGR <run_mers.gingr1.ggr>`
       
       .. image:: run_mers.gingr1.png
+          :target: https://raw.githubusercontent.com/marbl/harvest/master/docs/content/parsnp/run_mers.gingr1.png
 
       * Configure parameters
       
@@ -32,12 +33,16 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       * Visualize again with Gingr :download:`GGR <run_mers.gingr2.ggr>`
       
          - By adjusting the `-D` parameter, this region is no longer unaligned, boosting the reference coverage to 97%.
+         
          .. image:: run_mers.gingr2.png
+            :target: https://raw.githubusercontent.com/marbl/harvest/master/docs/content/parsnp/run_mers.gingr2.png
         
       * Zoom in with Gingr for nucleotide view of region
       
          - On closer inspection, a large stretch of N's in Jeddah isolate C7569 was the culprit
+         
          .. image:: run_mers.gingr3.png
+            :target: https://raw.githubusercontent.com/marbl/harvest/master/docs/content/parsnp/run_mers.gingr3.png
          
       * Inspect Output:
       
@@ -55,10 +60,10 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       
          ./parsnp -r ./strep31/NC_011900.fna -d ./strep31 -p <num threads>
          
-      * Example output:
+      * Command-line output:
       
           .. image:: run1.png
-      
+
       * Force inclusion of all genomes (-c) ::
       
          ./parsnp -r ./strep31/NC_011900.fna -d ./strep31 -p <num threads> -c
@@ -70,6 +75,7 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       * Visualize with Gingr
       
           .. image:: run1.gingr.png
+             :target: https://raw.githubusercontent.com/marbl/harvest/master/docs/content/parsnp/run1.gingr.png
 
       * Enable recombination detection/filter (-x) ::
       

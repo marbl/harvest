@@ -4,11 +4,17 @@ Quickstart
 Before you run
 ---------------
 
-   1. The precompiled binaries were created using Pyinstaller and packaged as a single file:
+   1. MUMi based recruitment is useful for quickly identifying clades of closely related genomes from a genomic DB
+   
+      * However, it is conservative and can under recruit genomes
+      * To force inclusion of all genomes in a given directory, use the `-c` flag.
+      
+   2. The precompiled binaries are created using Pyinstaller and packaged as a single file:
    
       * The most likely cause for failure is a lack of free space in the /tmp directory. By default, PyInstaller will search a standard list of directories and sets tempdir to the first one which the calling user can create files in. 
       
-      * The list of directories for extracting the archive:
+      * The list of directories where the archive will be extracted:
+      
          - The directory named by the TMPDIR environment variable.
          - The directory named by the TEMP environment variable.
          - The directory named by the TMP environment variable.
