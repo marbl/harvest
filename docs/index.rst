@@ -31,7 +31,7 @@ detection, and phylogenetic trees.
 Contents:
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
 
    content/hardware
    content/installation
