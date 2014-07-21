@@ -31,13 +31,13 @@ detection, and phylogenetic trees.
 Contents:
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 5
 
    content/hardware
    content/installation
    content/gingr
-   content/harvest-tools
    content/parsnp
+   content/harvest-tools
    content/faq
 
 
