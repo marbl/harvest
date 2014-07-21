@@ -16,8 +16,8 @@ Contents:
    parsnp/components
    parsnp/installation
    parsnp/paramaters
-   parsnp/faq
    parsnp/tutorial
+   parsnp/faq
    parsnp/source
    parsnp/citation
    parsnp/license
