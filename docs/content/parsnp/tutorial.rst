@@ -1,66 +1,63 @@
 Tutorial
 ========
 
-To further demonstrate the functionality of Parsnp we have prepared two small tutorial datasets. The first dataset is a MERS coronavirus outbreak dataset involving 47 isolates.
+To further demonstrate the functionality of Parsnp we have prepared two small tutorial datasets. The first dataset is a MERS coronavirus outbreak dataset involving 49 isolates.
 The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Both of these datasets should run on modestly equipped laptops in a few minutes.
 
    1) 47 MERS Coronavirus genomes
    
-      * Step 1: Download genomes: 
+      * Download genomes: 
       
-         * :download:`gzipped tarball <mers47.tar.gz>` 
+         * :download:`gzipped tarball <mers42.tar.gz>` 
     
-      * Step 2: Run parsnp ::
+      * Run parsnp ::
       
-         ./parsnp -r ! -d ./mers47 -p <num threads>
+         ./parsnp -r ./mers42/England-Qatar_2012.fna -d ./mers42 -p <num threads>
          
-      * Step 2: example output ::
+      * Command-line output ::
       
       .. image:: runm1.png
 
-      * Step 3: Inspect Output::
+      * Visualize with Gingr::
       
-         * XMFA output
-         * VCF output
-         * Newick output
+      .. image:: runm1.gingr.png
 
-      * Step 4: Visualize with Gingr::
+      * Inspect Output::
       
-         * GGR file
-         * Download Gingr from : 
-         * Include image
-         * for more details on using Gingr see http:
-
-      * Step 5: Adjusting parameters::
-      
-         * D parameter, C parameter
-         * Explain with image
-         * etc
+         * XMFA
+         * VCF
+         * Newick
 
    2) 31 Streptococcus pneumoniae genomes
 
-      * Step 1: Download genomes: 
+      * Download genomes: 
       
          * :download:`gzipped tarball <strep31.tar.gz>` 
     
-      * Step 2: Run parsnp ::
+      * Run parsnp ::
       
-         ./parsnp -r ! -d ./strep31 -p <num threads>
+         ./parsnp -r ./strep31/NC_011900.fna -d ./strep31 -p <num threads>
          
-      * Step 2: example output
+      * Example output:
       
           .. image:: run1.png
-          
-
       
-      * Step 3: Inspect Output::
+      * Force inclusion of all genomes (-c) ::
+      
+         ./parsnp -r ./strep31/NC_011900.fna -d ./strep31 -p <num threads> -c
+      
+     * Command-line output:
+      
+          .. image:: run2.png
+          
+      * Inspect Output::
       
          * XMFA output
          * VCF output
          * Newick output
 
-      * Step 5: Visualize with Gingr
+      * Visualize with Gingr
 
-      * Step 6: Retrieve XMFA via harvest-tools 
+      * Retrieve XMFA via harvest-tools 
 
-      * Step 7: Selecting a list of SNPs common to a pair of genomes
+      * Selecting a list of SNPs common to a pair of genomes
