@@ -21,6 +21,7 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       * Visualize with Gingr :download:`GGR <run_mers.gingr1.ggr>`
       
       .. image:: run_mers.gingr1.png
+          :target: run_mers.gingr1.png
 
       * Configure parameters
       
