@@ -14,10 +14,10 @@ multi-aligner, Gingr, a dynamic visual platform, and harvest-tools, providing bo
 ##Harvest suite download:
 
 * OSX (10.7 or newer): 
-   * ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvest-OSX64.tar.gz
+   * https://github.com/marbl/harvest/releases/download/v1.0/harvest-OSX64.tar.gz
    * MD5 sum: 31c2af7272897fd1926758a4e9399e46
 * Linux/*nix:
-   * ftp://ftp.cbcb.umd.edu/pub/software/harvest/harvest-Linux64.tar.gz
+   * https://github.com/marbl/harvest/releases/download/v1.0/harvest-Linux64.tar.gz
    * MD5 sum: 170b054d6c5656df64e5c9f2c8c4072c
 
 ##Harvest suite documentation (in prep):
