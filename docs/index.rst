@@ -7,7 +7,7 @@
 Harvest software suite for rapid genome alignment and visualization 
 =================================================================
 
-Project home page: `https://github.com/marbl/harvest`
+Project home page: https://github.com/marbl/harvest
 
 ==============
 Release status
