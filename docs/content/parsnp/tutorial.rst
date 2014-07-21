@@ -72,7 +72,7 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       
           .. image:: run2.png
 
-      * Visualize with Gingr
+      * Visualize with Gingr :download:`GGR <run_strep.gingr1.ggr>`
       
           .. image:: run1.gingr.png
              :target: https://raw.githubusercontent.com/marbl/harvest/master/docs/content/parsnp/run1.gingr.png
@@ -81,7 +81,13 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       
          ./parsnp -r ./strep31/NC_011900.fna -d ./strep31 -p <num threads> -c -x
 
-      * Re-visualize with Gingr
+      * Re-visualize with Gingr :download:`GGR <run_strep.gingr1.ggr>`
       
          * Bootstrap values have improved after running recombination filter; columns with filtered SNPs are displayed in image:
           .. image:: run2.gingr.png
+
+      * Inspect Output:
+      
+         * Multiple alignment: :download:`XMFA <runs1.xmfa>` 
+         * SNPs: :download:`VCF <runs1.vcf>`
+         * Phylogeny: :download:`Newick <runs1.tree>`
