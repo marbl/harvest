@@ -27,11 +27,13 @@ rapid core-genome alignments, variant calls, recombination
 detection, and phylogenetic trees.  
 
 .. image:: example.png
+   :target: https://raw.githubusercontent.com/marbl/harvest/master/docs/example.png
 
 Contents:
 
 .. toctree::
    :maxdepth: 5
+   :numbered:
 
    content/hardware
    content/installation
