@@ -31,14 +31,13 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
             
       * Visualize again with Gingr :download:`GGR <run_mers.gingr2.ggr>`
       
-      .. image:: run_mers.gingr2.png
-      
          - By adjusting the `-D` parameter, this region is no longer unaligned, boosting the reference coverage to 97%.
-         - On closer inspection, a large stretch of N's in Jeddah isolate C7569 was the culprit
+         .. image:: run_mers.gingr2.png
         
       * Zoom in with Gingr for nucleotide view of region
       
-      .. image:: run_mers.gingr3.png
+         - On closer inspection, a large stretch of N's in Jeddah isolate C7569 was the culprit
+         .. image:: run_mers.gingr3.png
          
       * Inspect Output:
       
