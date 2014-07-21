@@ -1,27 +1,44 @@
 Tutorial
 ========
 
-To further demonstrate the functionality of Parsnp we have prepared two small tutorial datasets. The first dataset is a MERS coronavirus outbreak dataset involving 42 isolates.
+To further demonstrate the functionality of Parsnp we have prepared two small tutorial datasets. The first dataset is a MERS coronavirus outbreak dataset involving 49 isolates.
 The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Both of these datasets should run on modestly equipped laptops in a few minutes.
 
-   1) 42 MERS Coronavirus genomes
+   1) 49 MERS Coronavirus genomes
    
       * Download genomes: 
       
          * :download:`gzipped tarball <mers42.tar.gz>` 
     
-      * Run parsnp ::
+      * Run parsnp with default parameters ::
       
-         ./parsnp -r ./mers42/England-Qatar_2012.fna -d ./mers42
+         ./parsnp -g ./ref/EMC_2012.gbk -d ./mers49
          
-      * Command-line output ::
+      * Command-line output
       
-      .. image:: runm1.png
+      .. image:: run_mers.cmd1.png
 
-      * Visualize with Gingr::
+      * Visualize with Gingr :download:`GGR <run_mers.gingr1.ggr>`
       
-      .. image:: runm1.gingr.png
+      .. image:: run_mers.gingr1.png
 
+      * Configure parameters
+      
+         - 95% of the reference is covered by the alignment. This is <100% mainly due to a 1kbp unaligned region from 26kbp to 27kbp.
+         - To force alignment across large collinear regions, use the `-D` diagonal distance parameter::
+         
+            ./parsnp -g ./ref/EMC_2012.gbk -d ./mers49 -D 1000
+            
+      * Visualize again with Gingr :download:`GGR <run_mers.gingr2.ggr>`
+      
+         - By adjusting the `-D` parameter, this region is no longer unaligned, boosting the reference coverage to 97%.
+         .. image:: run_mers.gingr2.png
+        
+      * Zoom in with Gingr for nucleotide view of region
+      
+         - On closer inspection, a large stretch of N's in Jeddah isolate C7569 was the culprit
+         .. image:: run_mers.gingr3.png
+         
       * Inspect Output:
       
          * Multiple alignment: :download:`XMFA <runm1.xmfa>` 
