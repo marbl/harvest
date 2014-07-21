@@ -6,41 +6,61 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
 
    1) 47 MERS Coronavirus genomes
    
-      *Step 1: Download genomes
+      * Step 1: Download genomes: 
+      
+         * :download:`gzipped tarball <mers47.tar.gz>` 
     
-      *Step 2: Run parsnp
-
-      *Step 3: Inspect Output::
+      * Step 2: Run parsnp ::
       
-         *XMFA output
-         *VCF output
-         *Newick output
-
-      *Step 4: Visualize with Gingr::
+         ./parsnp -r ! -d ./mers47 -p <num threads>
+         
+      * Step 2: example output ::
       
-         *GGR file
-         *Download Gingr from : 
-         *Include image
-         *for more details on using Gingr see http:
+      .. image:: runm1.png
 
-      *Step 5: Adjusting parameters::
+      * Step 3: Inspect Output::
       
-         *D parameter, C parameter
-         *Explain with image
-         *etc
+         * XMFA output
+         * VCF output
+         * Newick output
+
+      * Step 4: Visualize with Gingr::
+      
+         * GGR file
+         * Download Gingr from : 
+         * Include image
+         * for more details on using Gingr see http:
+
+      * Step 5: Adjusting parameters::
+      
+         * D parameter, C parameter
+         * Explain with image
+         * etc
 
    2) 31 Streptococcus pneumoniae genomes
 
-      *Step 1: Download genomes
+      * Step 1: Download genomes: 
+      
+         * :download:`gzipped tarball <strep31.tar.gz>` 
+    
+      * Step 2: Run parsnp ::
+      
+         ./parsnp -r ! -d ./strep31 -p <num threads>
+         
+      * Step 2: example output
+      
+          .. image:: run1.png
+          
 
-      *Step 2: Configure parameters
+      
+      * Step 3: Inspect Output::
+      
+         * XMFA output
+         * VCF output
+         * Newick output
 
-      *Step 3: Run parsnp
+      * Step 5: Visualize with Gingr
 
-      *Step 4: Inspect Output
+      * Step 6: Retrieve XMFA via harvest-tools 
 
-      *Step 5: Visualize with Gingr
-
-      *Step 6: Retrieve XMFA via harvest-tools 
-
-      *Step 7: Selecting a list of SNPs common to a pair of genomes
+      * Step 7: Selecting a list of SNPs common to a pair of genomes
