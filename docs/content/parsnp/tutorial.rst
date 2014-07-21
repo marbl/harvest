@@ -10,18 +10,34 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       
          * :download:`gzipped tarball <mers42.tar.gz>` 
     
-      * Run parsnp ::
+      * Run parsnp with default parameters ::
       
-         ./parsnp -r ./mers42/England-Qatar_2012.fna -d ./mers42
+         ./parsnp -g ./ref/EMC_2012.gbk -d ./mers49
          
-      * Command-line output ::
+      * Command-line output
       
-      .. image:: runm1.png
+      .. image:: run_mers.cmd1.png
 
-      * Visualize with Gingr::
+      * Visualize with Gingr :download: `GGR <run_mers.gingr1.ggr>`
       
-      .. image:: runm1.gingr.png
+      .. image:: run_mers.gingr1.png
 
+      * Configure parameters
+      
+         - 95% of the reference is covered by the alignment. This is <100% mainly due to a 1kbp unaligned region from 26kbp to 27kbp.
+         - To force alignment across large collinear regions, use the `-D` diagonal distance parameter::
+         
+            ./parsnp -g ./ref/EMC_2012.gbk -d ./mers49 -D 1000
+            
+      * Visualize again with Gingr :download: `GGR <run_mers.gingr2.ggr>`
+      
+      .. image:: run_mers.gingr2.png
+      
+         - By adjusting the `-D` parameter, this region is no longer unaligned, boosting the reference coverage to 97%.
+         - On closer inspection, a large stretch of N's in Jeddah isolate C7569 was the culprit
+         
+      .. image:: run_mers.gingr3.png
+         
       * Inspect Output:
       
          * Multiple alignment: :download:`XMFA <runm1.xmfa>` 
