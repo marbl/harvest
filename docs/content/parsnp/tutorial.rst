@@ -26,13 +26,13 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       * Configure parameters
       
          - 95% of the reference is covered by the alignment. This is <100% mainly due to a 1kbp unaligned region from 26kbp to 27kbp.
-         - To force alignment across large collinear regions, use the `-D` diagonal distance parameter::
+         - To force alignment across large collinear regions, use the `-C` maximum distance between two collinear MUMs::
          
-            ./parsnp -g ./ref/EMC_2012.gbk -d ./mers49 -D 1000
+            ./parsnp -g ./ref/EMC_2012.gbk -d ./mers49 -C 1000 -c
             
       * Visualize again with Gingr :download:`GGR <run_mers.gingr2.ggr>`
       
-         - By adjusting the `-D` parameter, this region is no longer unaligned, boosting the reference coverage to 97%.
+         - By adjusting the `-C` parameter, this region is no longer unaligned, boosting the reference coverage to 97%.
          
          .. image:: run_mers.gingr2.png
             :target: https://raw.githubusercontent.com/marbl/harvest/master/docs/content/parsnp/run_mers.gingr2.png
