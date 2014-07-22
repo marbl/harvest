@@ -12,7 +12,7 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
     
       * Run parsnp with default parameters ::
       
-         ./parsnp -g ./ref/EMC_2012.gbk -d ./mers49
+         ./parsnp -g ./ref/EMC_2012.gbk -d ./mers49 -c
          
       * Command-line output
       
