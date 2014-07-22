@@ -1,12 +1,13 @@
 Installation from source
 ==========
 
-Required before building:
+Required for building from source:
 ----------------------
 
 * 64-bit Linux/*nix or OSX (>= v10.7)
 * autoconf && automake
 * gcc (>= v4.2.*)
+* OpenMP
 * Python (>= 2.6.*)
 
 Build (local)
@@ -21,7 +22,30 @@ otherwise, to install from source::
     git clone https://github.com/marbl/parsnp.git parsnp_src
     cd parsnp_src
 
-First (important!), build libMUSCLE::
+Before you start, if running OSX Mavericks, OpenMP is not supported via Clang, so you will not be able to build the source. You will need to install OpenMP and build gcc with OpenMP support. This can be accomplished a couple of ways::
+
+    1.  Install Macports, then:
+    
+       - sudo port install gcc49
+       - sudo port gcc-select mp-gcc49
+       
+    2.  Install Homebrew, then:
+    
+       -  brew install gcc49
+       
+    3.  Build & install gcc from source with OpenMP
+    
+       - Download & install gcc 4.9
+       
+          - https://gcc.gnu.org/install/
+          
+    4.  Download & install gcc prebuilt binaries with OpenMP support
+    
+       - http://hpc.sourceforge.net/
+    
+    5. If issues persist, we recommend using the precompiled binary until OpenMP is natively supported by Clang/OSX (likely to be so in Yosemite)
+    
+Once OpenMP support is added, the first (required!) step is to build libMUSCLE::
 
     cd muscle
     ./autogen.sh
