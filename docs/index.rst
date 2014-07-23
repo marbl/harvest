@@ -13,11 +13,11 @@ Project home page: https://github.com/marbl/harvest
 Citation
 ==============
 
-Preprint::
+Preprint:
 
-   Rapid Core-Genome Alignment and Visualization for Thousands of Microbial Genomes
-   Todd J. Treangen, Brian D. Ondov, Sergey Koren, Adam M. Phillippy
-   bioRxivdoi: http://dx.doi.org/10.1101/007351
+   Treangen TJ, Ondov BD, Koren S, Phillippy AM.
+   "Rapid Core-Genome Alignment and Visualization for Thousands of Microbial Genomes."
+   *bioRxiv* (2014). doi: http://dx.doi.org/10.1101/007351
 
 ==============
 Release status
