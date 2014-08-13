@@ -19,14 +19,14 @@ harvest-tools is distributed as a precompiled binary. The three steps below repr
 
 On OSX:
 """""""
-  1. wget https://github.com/marbl/harvest-tools/releases/download/v1.0/harvesttools-OSX64.gz
-  2. gzip -d harvesttools-OSX64.gz
+  1. wget https://github.com/marbl/harvest-tools/releases/download/v1.0.1/harvesttools-OSX64-v1.0.1.tar.gz
+  2. tar -xvf harvesttools-OSX64-v1.0.1.tar.gz
 
 On Linux:
 """""""""
 
-  1. wget https://github.com/marbl/harvest-tools/releases/download/v1.0/harvesttools-Linux64.gz
-  2. gzip -d harvesttools-Linux64.gz
+  1. wget https://github.com/marbl/harvest-tools/releases/download/v1.0.1/harvesttools-Linux64-v1.0.1.tar.gz
+  2. tar -xvf harvesttools-Linux64-v1.0.1.tar.gz
 
 Basic usage:
 """"""""""""
