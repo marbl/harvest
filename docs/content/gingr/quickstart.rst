@@ -14,21 +14,21 @@ Parsnp is distributed as a precompiled binary that should be devoid of external 
 
 On OSX:
 """""""
-  1. wget https://github.com/marbl/gingr/releases/download/v1.0/gingr-OSX64.app.zip
+  1. wget https://github.com/marbl/gingr/releases/download/v1.0.1/gingr-OSX64-v1.0.1.zip
   2. unzip gingr-OSX64.app.zip
 
 On Linux:
 """""""""
 
-  1. wget https://github.com/marbl/gingr/releases/download/v1.0/gingr-Linux64.gz
-  2. gzip -d gingr-Linux64.gz
+  1. wget https://github.com/marbl/gingr/releases/download/v1.0.1/gingr-Linux64-v1.0.1.tar.gz
+  2. tar -xvf gingr-Linux64-v1.0.1.tar.gz
 
 Basic usage:
 """"""""""""
 
   1. On OSX simply click on Gingr app (right click to bypass unsigned developer notice)
   2. On Linux, simply run::
-      ./gingr-Linux64
+      ./gingr
   
 
 Browsing a Gingr file
