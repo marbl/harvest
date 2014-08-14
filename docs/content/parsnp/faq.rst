@@ -17,6 +17,10 @@ Q. **How can I visualize the results?**
 
  A. Gingr (http://github.com/marbl/gingr) can open Parsnp output and provide an interactive display of multi-alignments, variants and the phylogenetic tree estimated from the core genome alignment.
 
+Q. **What % of genome X is aligned? What is the core genome alignment size?**
+
+ A. Within the log output, there are coverage values listed that individually indicate the percentage of a given genome that is included in the core genome alignment. Note, this includes the Muscle aligned-regions plus the maximal unique matches (MUMs). The core genome alignment size can then be calculated by multiplying the coverage value, for a given genome, by its length.
+
 Q. **Only a small percentage (<40%) of the reference genome covered by the alignments, huh?**
 
  A. Parsnp is a conservative core genome alignment method that necessarily requires that all genomes are present in each aligned regions. The focus is on aligning 1000s of closely related bacterial strains quickly while maintaining sensitivity comparable to existing WGA methods. In additon, the core genome has been shown to contain as few as 30-40% of the gene content (even in very closely-related clades) due to reductive genome evolution and/or a large accessory genome (with plenty of IS/phage elements). However, for increased sensitivity w.r.t aligned regions, and alignments containing subsets, both Mugsy and Mauve are terrific tools for the job.
