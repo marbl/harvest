@@ -49,6 +49,8 @@ Parsnp quick start for three example scenarios.
 With reference & genbank file::
    
    parsnp -g <reference_genbank_file1,reference_genbank_file2,..> -d <genome_dir> -p <threads> 
+   
+NOTE: Genbank files are currently expected to have GI numbers for indexing. This means custom Genbank files (not downloaded from NCBI) will not have annotations appear in Gingr, though the alignment should still work. The dependency on GIs is expected to change in future versions.
 
 With reference but without genbank file::
    
