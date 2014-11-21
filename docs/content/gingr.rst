@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    gingr/quickstart
+   gingr/types
    gingr/components
    gingr/installation
    gingr/paramaters
