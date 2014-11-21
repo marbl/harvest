@@ -54,24 +54,25 @@ With harvest-tools file as input, fasta formatted SNP file as output::
 
 Command-line parameters:
 """""""""""""""""""""""""
-   - -b: <bed filter intervals>,<filter name>,"<description>"
-   - -B: <output backbone intervals>
-   - -f: <reference fasta>
-   - -F: <reference fasta out>
-   - -g: <reference genbank>
-   - -h: (show this help)
-   - -i: <harvest input>
-   - -m: <multi-fasta alignment input>
-   - -n: <Newick tree input>
-   - -N: <Newick tree output>
-   - --midpoint-reroot
-   - -o: <hvt output>
-   - -q: (quiet mode)
-   - -S: <output for multi-fasta SNPs>
-   - -v: <VCF input>
-   - -V: <VCF output>
-   - -x: <xmfa alignment file>
-   - -X: <output xmfa alignment file>
+   - -b <bed filter intervals>,<filter name>,"<description>"
+   - -B <output backbone intervals>
+   - -f <reference fasta>
+   - -F <reference fasta out>
+   - -g <reference genbank>
+   - -h (show this help)
+   - -i <harvest input>
+   - -m <multi-fasta alignment input>
+   - -M <multi-fasta alignment output (concatenated LCBs)>
+   - -n <Newick tree input>
+   - -N <Newick tree output>
+   - --midpoint-reroot (reroot the tree at its midpoint after loading)
+   - -o <hvt output>
+   - -q (quiet mode)
+   - -S <output for multi-fasta SNPs>
+   - -v <VCF input>
+   - -V <VCF output>
+   - -x <xmfa alignment file>
+   - -X <output xmfa alignment file>
 
 Primary output files
 -------------
