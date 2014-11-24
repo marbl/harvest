@@ -48,7 +48,7 @@ Parsnp quick start for three example scenarios.
 
 With reference & genbank file::
    
-   parsnp -g <reference_genbank_file1,reference_genbank_file2,..> -d <genome_dir> -p <threads> 
+   parsnp -g <reference_replicon1,reference_replicon2,..> -d <genome_dir> -p <threads> 
    
 NOTE: 
 
@@ -72,7 +72,7 @@ Input/output::
 
    -c = <flag>: (c)urated genome directory, use all genomes in dir and ignore MUMi? (default = NO)
    -d = <path>: (d)irectory containing genomes/contigs/scaffolds
-   -g = <string>: Gen(b)ank file(s) (gbk), comma separated list (default = None)
+   -g = <string>: Gen(b)ank file(s) (gbk), comma separated list for each replicon (default = None)
    -o = <string>: output directory? default [./P_CURRDATE_CURRTIME]
    -q = <path>: (optional) specify (assembled) query genome to use, in addition to genomes found in genome dir (default = NONE)
    -r = <path>: (r)eference genome (set to ! to pick random one from genome dir)  
