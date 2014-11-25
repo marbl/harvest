@@ -9,15 +9,15 @@ multi-aligner, Gingr, a dynamic visual platform, and harvest-tools, providing bo
 
 ##Release status
 
-08/08/14: `v1.0.1`
+Pending: `v1.1`
 
 ##Harvest suite download:
 
 * OSX (10.7 or newer): 
-   * https://github.com/marbl/harvest/releases/download/v1.0.1/harvest-OSX64-v1.0.1.tar.gz
+   * https://github.com/marbl/harvest/releases/download/v1.1/harvest-OSX64-v1.1.tar.gz
    * MD5 sum: 86df3afe4ea61f5799bd4dfdf18087e9
 * Linux/*nix:
-   * https://github.com/marbl/harvest/releases/download/v1.0.1/harvest-Linux64-v1.0.1.tar.gz
+   * https://github.com/marbl/harvest/releases/download/v1.1/harvest-Linux64-v1.1.tar.gz
    * MD5 sum: a6227d26b5c94a9904039c3e67a160cf
 
 ##Harvest suite documentation (in prep):
@@ -47,10 +47,10 @@ multi-aligner, Gingr, a dynamic visual platform, and harvest-tools, providing bo
   * Project url: http://github.com/marbl/gingr
   * Language: C++
   * OSX prebuilt binary: 
-     * https://github.com/marbl/gingr/releases/download/v1.0.1/gingr-OSX64-v1.0.1.zip
+     * https://github.com/marbl/gingr/releases/download/v1.1/gingr-OSX64-v1.1.zip
      * MD5 sum: 455ebd0b68e064b1fd5b18decfc49905
   * Linux prebuilt binary: 
-     * https://github.com/marbl/gingr/releases/download/v1.0.1/gingr-Linux64-v1.0.1.tar.gz
+     * https://github.com/marbl/gingr/releases/download/v1.1/gingr-Linux64-v1.1.tar.gz
      * MD5 sum: 386dee47f6be86367e7ab92ad1334ef1
 
 3. **Harvest tools**
@@ -58,9 +58,9 @@ multi-aligner, Gingr, a dynamic visual platform, and harvest-tools, providing bo
   * Project url: http://github.com/marbl/harvest-tools
   * Language: C++, Python
   * OSX prebuilt binary: 
-     * https://github.com/marbl/harvest-tools/releases/download/v1.0.1/harvesttools-OSX64-v1.0.1.tar.gz
+     * https://github.com/marbl/harvest-tools/releases/download/v1.1/harvesttools-OSX64-v1.1.tar.gz
      * MD5 sum: bbc75536d40b02e597589e55df189235
   * Linux prebuilt binary: 
-     * https://github.com/marbl/harvest-tools/releases/download/v1.0.1/harvesttools-Linux64-v1.0.1.tar.gz
+     * https://github.com/marbl/harvest-tools/releases/download/v1.1/harvesttools-Linux64-v1.1.tar.gz
      * MD5 sum: 48386692d434bbc947ea0058e95b2f15
 
