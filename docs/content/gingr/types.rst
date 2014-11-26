@@ -8,6 +8,7 @@ exported to/from Gingr (or the `harvesttools` command line utility).
 
 * Alignments
 	* Core only: The Gingr file format stores core alignments, or alignments that involve all genomes. When alignments are loaded, blocks that are not core will be discarded.
+	* When importing MAF alignments, the first sequence of the first core block is used as the reference. Each reference contig will be padded with Ns up to its first LCB and between subsequent LCBs. If alignment blocks overlap in reference coordinate space, the block seen earlier in the file will be kept; the later one will be ignored.
 	* Multi-fasta: This format does not store rearrangement information, so the alignment is treated as a single LCB.
 * References
 	* XMFA files can be accompanied by Fasta reference files to provide sequence between LCBs and to allow Genbank annotations (which must have matching GI numbers) to be loaded later. Genbank files that contain sequence can also be used as references.
