@@ -1,14 +1,16 @@
 
 ## Harvest
 
+![](https://raw.githubusercontent.com/marbl/gingr/master/html/img/harvest.png)
+
 Harvest is a suite of core-genome alignment and
 visualization tools for quickly analyzing thousands of intraspecific
 microbial genomes.
 
 #### Components
 
-* **Parsnp** - core-genome alignment and analysis
-* **Gingr** - interactive visualization of alignments, trees and variants
+* ![Parsnp](https://raw.githubusercontent.com/marbl/gingr/master/html/img/res/parsnp_icon_small.png) **Parsnp** - core-genome alignment and analysis
+* ![Gingr](https://raw.githubusercontent.com/marbl/gingr/master/html/img/res/gingr_icon_small.png) **Gingr** - interactive visualization of alignments, trees and variants
 * **Harvest tools** - archiving and postprocessing
 
 #### Documentation
