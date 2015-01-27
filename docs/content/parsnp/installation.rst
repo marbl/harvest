@@ -48,7 +48,7 @@ Once OpenMP support is added, the first (required!) step is to build libMUSCLE::
 
     cd muscle
     ./autogen.sh
-    ./configure --prefix=`pwd`
+    ./configure --prefix=`pwd` CXXFLAGS=’-fopenmp’ 
     make install
 
 Then, build Parsnp::
