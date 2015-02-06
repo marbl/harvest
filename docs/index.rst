@@ -3,53 +3,41 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-=================================================================
-Harvest software suite for rapid genome alignment and visualization 
-=================================================================
+Harvest
+=======
 
-Project home page: https://github.com/marbl/harvest
+.. image:: content/harvest.png
 
-==============
-Citation
-==============
+Harvest is a suite of core-genome alignment and visualization tools
+for quickly analyzing thousands of intraspecific microbial
+genomes, including variant calls, recombination
+detection, and phylogenetic trees.  
 
-Preprint:
+.. image:: content/gingr/screen.png
+   :width: 462
+   :height: 290
+
+**Tools**
+
+* `Parsnp <content/parsnp.html>`_ - Core-genome alignment and analysis
+* `Gingr <content/gingr.html>`_ - Interactive visualization of alignments, trees and variants
+* `HarvestTools <content/harvest-tools.html>`_ - Archiving and postprocessing
+
+**Citation (preprint)**
 
    Treangen TJ, Ondov BD, Koren S, Phillippy AM.
    "Rapid Core-Genome Alignment and Visualization for Thousands of Microbial Genomes."
    *bioRxiv* (2014). doi: http://dx.doi.org/10.1101/007351
 
-==============
-Release status
-==============
+**Download (v1.1, 6-Feb-2015)**
 
-07/21/14: `v1.0`
-
-=================
-Overview
-=================
-
-Harvest is a suite of core-genome alignment and visualization tools
-for quickly analyzing thousands of intraspecific microbial
-genomes. Harvest includes Parsnp, a fast core-genome multi-aligner, harvest-tools, a binary archive format and format conversion tool,
-and Gingr, a dynamic visual platform. Combined they provide
-rapid core-genome alignments, variant calls, recombination
-detection, and phylogenetic trees.  
-
-.. image:: example.png
-   :target: https://raw.githubusercontent.com/marbl/harvest/master/docs/example.png
-
-Contents:
+* `Harvest-OSX64-v1.1.tar.gz <https://github.com/marbl/harvest/releases/download/v1.1/Harvest-OSX64-v1.1.tar.gz>`_
+* `Harvest-Linux64-v1.1.tar.gz <https://github.com/marbl/harvest/releases/download/v1.1/Harvest-Linux64-v1.1.tar.gz>`_
 
 .. toctree::
-   :maxdepth: 1
-   :numbered:
+   :hidden:
 
-   content/hardware
-   content/installation
    content/gingr
    content/parsnp
    content/harvest-tools
-   content/faq
-
 
