@@ -19,14 +19,14 @@ harvest-tools is distributed as a precompiled binary. The three steps below repr
 
 On OSX:
 """""""
-  1. wget https://github.com/marbl/harvest-tools/releases/download/v1.0.1/harvesttools-OSX64-v1.0.1.tar.gz
-  2. tar -xvf harvesttools-OSX64-v1.0.1.tar.gz
+  1. wget https://github.com/marbl/harvest-tools/releases/download/v1.2/harvesttools-OSX64-v1.2.zip
+  2. tar -xvf harvesttools-OSX64-v1.2.tar.gz
 
 On Linux:
 """""""""
 
-  1. wget https://github.com/marbl/harvest-tools/releases/download/v1.0.1/harvesttools-Linux64-v1.0.1.tar.gz
-  2. tar -xvf harvesttools-Linux64-v1.0.1.tar.gz
+  1. wget https://github.com/marbl/harvest-tools/releases/download/v1.2/harvesttools-Linux64-v1.2.tar.gz
+  2. tar -xvf harvesttools-Linux64-v1.2.tar.gz
 
 Basic usage:
 """"""""""""
@@ -54,25 +54,27 @@ With harvest-tools file as input, fasta formatted SNP file as output::
 
 Command-line parameters:
 """""""""""""""""""""""""
+   - -i <Gingr input>
    - -b <bed filter intervals>,<filter name>,"<description>"
    - -B <output backbone intervals>
    - -f <reference fasta>
    - -F <reference fasta out>
    - -g <reference genbank>
-   - -h (show this help)
-   - -i <harvest input>
+   - -a <MAF alignment input>
    - -m <multi-fasta alignment input>
    - -M <multi-fasta alignment output (concatenated LCBs)>
    - -n <Newick tree input>
    - -N <Newick tree output>
    - --midpoint-reroot (reroot the tree at its midpoint after loading)
-   - -o <hvt output>
-   - -q (quiet mode)
+   - -o <Gingr output>
    - -S <output for multi-fasta SNPs>
+   - -u 0/1 (update the branch values to reflect genome length)
    - -v <VCF input>
    - -V <VCF output>
    - -x <xmfa alignment file>
    - -X <output xmfa alignment file>
+   - -h (show this help)
+   - -q (quiet mode)
 
 Primary output files
 -------------
