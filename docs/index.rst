@@ -23,11 +23,12 @@ detection, and phylogenetic trees.
 * `Gingr <content/gingr.html>`_ - Interactive visualization of alignments, trees and variants
 * `HarvestTools <content/harvest-tools.html>`_ - Archiving and postprocessing
 
-**Citation (preprint)**
+**Citation**
 
    Treangen TJ, Ondov BD, Koren S, Phillippy AM.
-   "The Harvest suite for rapid core-genome alignment and visualization of thousands of intraspecific microbial genomes."
-   Genome Biology 15 (11), 1-15
+   The Harvest suite for rapid core-genome alignment and visualization of thousands of intraspecific microbial genomes.
+   [pdf](http://www.biomedcentral.com/content/pdf/s13059-014-0524-x.pdf).
+   Genome Biology, 15 (11), 1-15
 
 **Download (v1.1, 6-Feb-2015)**
 
