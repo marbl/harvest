@@ -27,8 +27,9 @@ detection, and phylogenetic trees.
 
    Treangen TJ, Ondov BD, Koren S, Phillippy AM.
    The Harvest suite for rapid core-genome alignment and visualization of thousands of intraspecific microbial genomes.
-   [pdf](http://www.biomedcentral.com/content/pdf/s13059-014-0524-x.pdf).
    Genome Biology, 15 (11), 1-15
+          ` PDF <http://www.biomedcentral.com/content/pdf/s13059-014-0524-x.pdf>`_
+
 
 **Download (v1.1, 6-Feb-2015)**
 
