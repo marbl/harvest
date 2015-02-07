@@ -26,8 +26,8 @@ detection, and phylogenetic trees.
 **Citation (preprint)**
 
    Treangen TJ, Ondov BD, Koren S, Phillippy AM.
-   "Rapid Core-Genome Alignment and Visualization for Thousands of Microbial Genomes."
-   *bioRxiv* (2014). doi: http://dx.doi.org/10.1101/007351
+   "The Harvest suite for rapid core-genome alignment and visualization of thousands of intraspecific microbial genomes."
+   Genome Biology 15 (11), 1-15
 
 **Download (v1.1, 6-Feb-2015)**
 
