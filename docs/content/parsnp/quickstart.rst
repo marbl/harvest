@@ -25,14 +25,14 @@ Parsnp is distributed as a precompiled binary that should be devoid of external 
 
 On OSX:
 """""""
-  1. wget https://github.com/marbl/parsnp/releases/download/v1.0/parsnp-OSX64-v1.0.tar.gz
-  2. tar -xvf parsnp-OSX64-v1.0.tar.gz
+  1. wget https://github.com/marbl/parsnp/releases/download/v1.1/parsnp-OSX64-v1.1.tar.gz
+  2. tar -xvf parsnp-OSX64-v1.1.tar.gz
 
 On Linux:
 """""""""
 
-  1. wget https://github.com/marbl/parsnp/releases/download/v1.0/parsnp-Linux64-v1.0.tar.gz
-  2. tar -xvf parsnp-Linux64-v1.0.tar.gz
+  1. wget https://github.com/marbl/parsnp/releases/download/v1.1/parsnp-Linux64-v1.1.tar.gz
+  2. tar -xvf parsnp-Linux64-v1.1.tar.gz
 
 Basic usage:
 """"""""""""
@@ -70,41 +70,45 @@ Command-line parameters:
 
 Input/output::
 
-   -c = <flag>: (c)urated genome directory, use all genomes in dir and ignore MUMi? (default = NO)
-   -d = <path>: (d)irectory containing genomes/contigs/scaffolds
-   -g = <string>: Gen(b)ank file(s) (gbk), comma separated list for each replicon (default = None)
-   -o = <string>: output directory? default [./P_CURRDATE_CURRTIME]
-   -q = <path>: (optional) specify (assembled) query genome to use, in addition to genomes found in genome dir (default = NONE)
-   -r = <path>: (r)eference genome (set to ! to pick random one from genome dir)  
+ -c = <flag>: (c)urated genome directory, use all genomes in dir and ignore MUMi? (default = NO)
+ -d = <path>: (d)irectory containing genomes/contigs/scaffolds
+ -r = <path>: (r)eference genome (set to ! to pick random one from genome dir)
+ -g = <string>: Gen(b)ank file(s) (gbk), comma separated list (default = None)
+ -o = <string>: output directory? default [./P_CURRDATE_CURRTIME]
+ -q = <path>: (optional) specify (assembled) query genome to use, in addition to genomes found in genome dir (default = NONE)
+
    
 MUMi::
 
-   -M = <flag>: calculate MUMi and exit? overrides all other choices! (default: NO)
-   -U = <float>: max (M)UMi distance (default: autocutoff based on distribution of MUMi values)
+ -U = <float>: max MUMi distance value for MUMi distribution 
+ -M = <flag>: calculate MUMi and exit? overrides all other choices! (default: NO)
+ -i = <float>: max MUM(i) distance (default: autocutoff based on distribution of MUMi values)
   
 MUM search::
 
-   -a = <int>: min (a)NCHOR length (default = 1.1*Log(S))
-   -C = <int>: maximal cluster D value? (default=100)
-   -z = <path>: min LCB si(z)e? (default = 25)
+ -a = <int>: min (a)NCHOR length (default = 1.1*Log(S))
+ -C = <int>: maximal cluster D value? (default=100)
+ -z = <path>: min LCB si(z)e? (default = 25)
   
 LCB alignment::
 
-   -D = <float>: maximal diagonal difference? Either percentage (e.g. 0.2) or bp (e.g. 100bp) (default = 0.12)
-   -e = <flag> greedily extend LCBs? experimental! (default = NO)
-   -n = <string>: alignment program (default: libMUSCLE)
+ -D = <float>: maximal diagonal difference? Either percentage (e.g. 0.2) or bp (e.g. 100bp) (default = 0.12)
+ -e = <flag> greedily extend LCBs? experimental! (default = NO)
+ -n = <string>: alignment program (default: libMUSCLE)
+ -u = <flag>: output unaligned regions? .unaligned (default: NO)
   
 SNP filters::
 
-   -R = <flag>: disable (R)epeat filtering?
-   -x = <flag>: enable recombination filtering? (default: NO)
+ -R = <flag>: enable (R)epeat filtering?
+ -x = <flag>: enable recombination filtering? (default: NO)
   
 Misc::
 
-   -h = <flag>: (h)elp: print this message
-   -P = <int>: max partition size? limits memory usage (default= 15000000)
-   -p = <int>: number of threads to use? (default= 1)
-   -v = <flag>: (v)erbose output? (default = NO)
+ -h = <flag>: (h)elp: print this message and exit
+ -p = <int>: number of threads to use? (default= 1)
+ -P = <int>: max partition size? limits memory usage (default= 15000000)
+ -v = <flag>: (v)erbose output? (default = NO)
+ -V = <flag>: output (V)ersion and exit
 
 Output Files
 -------------
