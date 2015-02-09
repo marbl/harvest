@@ -38,7 +38,7 @@ detection, and phylogenetic trees.
 .. toctree::
    :hidden:
 
-   content/gingr
    content/parsnp
+   content/gingr
    content/harvest-tools
 

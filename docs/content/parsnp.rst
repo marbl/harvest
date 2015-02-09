@@ -1,6 +1,7 @@
-=========================================
-Parsnp: rapid core genome multi-alignment
-=========================================
+======
+Parsnp 
+======
+**Rapid core genome multi-alignment**
 
 Project home page: https://github.com/marbl/parsnp
 
