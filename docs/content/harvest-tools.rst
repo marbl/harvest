@@ -28,6 +28,8 @@ generic conversion between standard bioinformatics file formats.
    harvest/source
    harvest/license
 
+**Resources**
+
 `All releases`_ ~ `Source code`_ ~ `Report an issue`_
 
 .. _All releases: https://github.com/marbl/harvest-tools/releases

@@ -27,7 +27,7 @@ Before you start, if running OSX Mavericks, OpenMP is not supported via Clang, s
     * Install Macports, then:
     
        - sudo port install gcc49
-       - sudo port gcc-select mp-gcc49
+       - sudo port select gcc mp-gcc49
        
     * (or) Install Homebrew, then:
     
@@ -48,7 +48,7 @@ Once OpenMP support is added, the first (required!) step is to build libMUSCLE::
 
     cd muscle
     ./autogen.sh
-    ./configure --prefix=`pwd`
+    ./configure --prefix=`pwd` CXXFLAGS=’-fopenmp’ 
     make install
 
 Then, build Parsnp::
