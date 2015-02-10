@@ -81,7 +81,28 @@ Primary output files
 
 #. Compressed binary archive (GGR)
 
+Additional output files
+-------------
 
+1. Variant Call Format (.vcf))
+   
+  Example VCF output file:  ::
 
+    ##FILTER=<ID=IND,Description="Column contains indel">
+    ##FILTER=<ID=N,Description="Column contains N">
+    ##FILTER=<ID=LCB,Description="LCB smaller than 200bp">
+    ##FILTER=<ID=CID,Description="SNP in aligned 100bp window with < 50% column % ID">
+    ##FILTER=<ID=ALN,Description="SNP in aligned 100b window with > 20 indels">
+    #CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  England1.fna.ref        Al-Hasa_18_2013.fna     Al-Hasa_1_2013.fna      England-Qatar_2012.fna  KSA-CAMEL-376.fna       NC_019843.2.fna
+    gi|471258596|gb|KC164505.2|     1603    GTACTATGTA.CTTTGTGCCT   C       T       40      PASS    NA      GT      0       0       0       0       1       0
+    gi|471258596|gb|KC164505.2|     1684    GGAACAAGGT.CACTCAAATT   C       T       40      PASS    NA      GT      0       0       0       0       1       0
+    gi|471258596|gb|KC164505.2|     2502    ATATTCCCAT.CGGGAACCTA   C       T       40      PASS    NA      GT      0       0       0       0       1       0
+    gi|471258596|gb|KC164505.2|     3275    TTCTCATGAG.ATTTCTGACG   A       G       40      PASS    NA      GT      0       1       1       0       1       0
+    gi|471258596|gb|KC164505.2|     4396    TTCAAGCAGG.GAGTGTCGTG   G       T       40      PASS    NA      GT      0       1       1       0       0       0
+   
+   .
+   .
+   .
+   
 
 
