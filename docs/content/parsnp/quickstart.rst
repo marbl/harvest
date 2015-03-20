@@ -97,10 +97,9 @@ LCB alignment::
  -n = <string>: alignment program (default: libMUSCLE)
  -u = <flag>: output unaligned regions? .unaligned (default: NO)
   
-SNP filters::
+Recombination filtration::
 
- -R = <flag>: enable (R)epeat filtering?
- -x = <flag>: enable recombination filtering? (default: NO)
+ -x = <flag>: enable filtering of SNPs located in PhiPack identified regions of recombination? (default: NO)
   
 Misc::
 
