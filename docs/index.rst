@@ -30,10 +30,10 @@ detection, and phylogenetic trees.
    Genome Biology, 15 (11), 1-15 [`PDF <http://www.biomedcentral.com/content/pdf/s13059-014-0524-x.pdf>`_]
 
 
-**Download (v1.1, 6-Feb-2015)**
+**Download (v1.1.1, 20-Mar-2015)**
 
-* `Harvest-OSX64-v1.1.tar.gz <https://github.com/marbl/harvest/releases/download/v1.1/Harvest-OSX64-v1.1.tar.gz>`_
-* `Harvest-Linux64-v1.1.tar.gz <https://github.com/marbl/harvest/releases/download/v1.1/Harvest-Linux64-v1.1.tar.gz>`_
+* `Harvest-OSX64-v1.1.1.tar.gz <https://github.com/marbl/harvest/releases/download/v1.1.1/Harvest-OSX64-v1.1.1.tar.gz>`_
+* `Harvest-Linux64-v1.1.1.tar.gz <https://github.com/marbl/harvest/releases/download/v1.1.1/Harvest-Linux64-v1.1.1.tar.gz>`_
 
 .. toctree::
    :hidden:
