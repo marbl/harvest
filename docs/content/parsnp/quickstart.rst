@@ -1,6 +1,8 @@
 Quickstart
 ==========
 
+Note: If you are currently using a Parsnp version prior to **v1.2** you should update to use the latest release (currently v1.2). The latest release includes a critical fix for FastTree2; see http://darlinglab.org/blog/2015/03/23/not-so-fast-fasttree.html for further details.
+
 Before you run
 ---------------
 
@@ -25,14 +27,14 @@ Parsnp is distributed as a precompiled binary that should be devoid of external 
 
 On OSX:
 """""""
-  1. wget https://github.com/marbl/parsnp/releases/download/v1.1/parsnp-OSX64-v1.1.tar.gz
-  2. tar -xvf parsnp-OSX64-v1.1.tar.gz
+  1. wget https://github.com/marbl/parsnp/releases/download/v1.2/parsnp-OSX64-v1.2.tar.gz
+  2. tar -xvf parsnp-OSX64-v1.2.tar.gz
 
 On Linux:
 """""""""
 
-  1. wget https://github.com/marbl/parsnp/releases/download/v1.1/parsnp-Linux64-v1.1.tar.gz
-  2. tar -xvf parsnp-Linux64-v1.1.tar.gz
+  1. wget https://github.com/marbl/parsnp/releases/download/v1.2/parsnp-Linux64-v1.2.tar.gz
+  2. tar -xvf parsnp-Linux64-v1.2.tar.gz
 
 Basic usage:
 """"""""""""
@@ -97,10 +99,9 @@ LCB alignment::
  -n = <string>: alignment program (default: libMUSCLE)
  -u = <flag>: output unaligned regions? .unaligned (default: NO)
   
-SNP filters::
+Recombination filtration::
 
- -R = <flag>: enable (R)epeat filtering?
- -x = <flag>: enable recombination filtering? (default: NO)
+ -x = <flag>: enable filtering of SNPs located in PhiPack identified regions of recombination? (default: NO)
   
 Misc::
 
