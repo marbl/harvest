@@ -1,7 +1,7 @@
 Quickstart
 ==========
 
-Note: If you are currently using a Parsnp version prior to **v1.2** you should update to use the latest release (currently v1.2). The latest release includes a critical fix for FastTree2; see http://darlinglab.org/blog/2015/03/23/not-so-fast-fasttree.html for further details.
+Note: If you are currently using a Parsnp version prior to **v1.2** or Harvest version prior to **v1.1.2**, you should update to use the latest release before proceeding. The latest release includes a critical fix for FastTree2; see http://darlinglab.org/blog/2015/03/23/not-so-fast-fasttree.html for further details.
 
 Before you run
 ---------------
