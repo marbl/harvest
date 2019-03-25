@@ -15,7 +15,7 @@ Gingr is an interactive tool for exploring large-scale phylogenies in tandem wit
 
 **Download (v1.3)**
 
- * `gingr-OSX64-v1.3.zip <https://github.com/marbl/gingr/releases/download/v1.3/gingr-OSX64-v1.3.zip/>`_
+ * `gingr-OSX64-v1.3.zip <https://github.com/marbl/gingr/releases/download/v1.3/gingr-OSX64-v1.3.app.zip>`_
  * `gingr-Linux64-v1.3.tar.gz <https://github.com/marbl/gingr/releases/download/v1.3/gingr-Linux64-v1.3.tar.gz/>`_
 
 **Documentation**
