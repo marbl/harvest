@@ -10,7 +10,7 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
    
       * Download genomes: 
       
-         * :download:`gzipped tarball <mers49.tar.gz>` 
+         * :download:`gzipped tarball <mers_examples.tar.gz>` 
     
       * Run parsnp with default parameters ::
       
