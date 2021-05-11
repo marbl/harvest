@@ -10,11 +10,11 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
    
       * Download genomes: 
       
-         * :download:`gzipped tarball <mers49.tar.gz>` 
+         * :download:`gzipped tarball <mers_examples.tar.gz>` 
     
       * Run parsnp with default parameters ::
       
-         ./parsnp -g ./ref/EMC_2012.gbk -d ./mers49 -c
+         parsnp -g ./mers_virus/ref/England1.gbk -d ./mers_virus/genomes -c
          
       * Command-line output
       
@@ -30,7 +30,7 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
          - 95% of the reference is covered by the alignment. This is <100% mainly due to a 1kbp unaligned region from 26kbp to 27kbp.
          - To force alignment across large collinear regions, use the `-C` maximum distance between two collinear MUMs::
          
-            ./parsnp -g ./ref/EMC_2012.gbk -d ./mers49 -C 1000 -c
+            parsnp -g ./mers_virus/ref/England1.gbk -d ./mers_virus/genomes -C 1000 -c
             
       * Visualize again with Gingr :download:`GGR <run_mers.gingr2.ggr>`
       
@@ -59,7 +59,7 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
     
       * Run parsnp ::
       
-         ./parsnp -r ./strep31/NC_011900.fna -d ./strep31 -p <num threads>
+         parsnp -r ./strep31/NC_011900.fna -d ./strep31 -p <num threads>
          
       * Command-line output:
       
@@ -80,7 +80,7 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
 
       * Enable recombination detection/filter (-x) ::
       
-         ./parsnp -r ./strep31/NC_011900.fna -d ./strep31 -p <num threads> -c -x
+         parsnp -r ./strep31/NC_011900.fna -d ./strep31 -p <num threads> -c -x
 
       * Re-visualize with Gingr :download:`GGR <run_strep.gingr1.ggr>`
       
