@@ -49,7 +49,6 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       * Inspect Output:
       
          * Multiple alignment: :download:`XMFA <runm1.xmfa>` 
-         * SNPs: :download:`VCF <runm1.vcf>`
          * Phylogeny: :download:`Newick <runm1.tree>`
  
    2) 31 Streptococcus pneumoniae genomes
@@ -68,7 +67,7 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
 
       * Force inclusion of all genomes (-c) ::
       
-         ./parsnp -r ./strep31/NC_011900.fna -d ./strep31 -p <num threads> -c
+         ./parsnp -r ./strep31/NC_011900.fna -d ./strep31/*.fna -p <num threads> -c
       
      * Command-line output:
       
@@ -92,5 +91,4 @@ The second dataset is a selected set of 31 Streptococcus pneumoniae genomes. Bot
       * Inspect Output:
       
          * Multiple alignment: :download:`XMFA <runs1.xmfa>` 
-         * SNPs: :download:`VCF <runs1.vcf>`
          * Phylogeny: :download:`Newick <runs1.tree>`
